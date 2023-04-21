@@ -3,57 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>footer page with bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
   <body>
     <section>
       <h1>Page content</h1>
     </section>
-      <section class="position-fixed bottom-0 start-0 end-0 d-flex flex-column ms-xxl-5 mb-lg-4 justify-content-center  align-items-center">
+
+      <section class="position-fixed bottom-0 start-0 end-0 d-flex flex-column bg-info py-3 text-white justify-content-center  align-items-center">
         <div class="d-flex justify-content-between gap-5 align-items-start ">
           <div class="company">
             <h2>Groco <span class="emojis-header">&#128146;</span></h2>
             <p>Your Food delivery website</p>
-            <div class="d-flex">
-              <div class="company-logo">&#127774;</div>
-              <div class="company-logo">&#127774;</div>
-              <div class="company-logo">&#127774;</div>
-              <div class="company-logo">&#127774;</div>
-            </div>
           </div>
-          <div class="contact">
+          <div>
             <h2>Contact Info</h2>
             <ul>
-              <li>&#128241; <span> +257 76515792</span></li>
+              <li>&#128241; <span class="mylink"> +257 76515792</span></li>
               <li>&#128241; <span> +257 68970369</span></li>
               <li>&#128195; <span> joyjoffrey@gmail.com</span></li>
               <li>&#127919; <span> Bujumbura, Burundi - Buja:205C</span></li>
             </ul>
           </div>
-          <div class="links">
+          <div>
             <h2>Quick Links</h2>
             <ul>
-              <li>&#127804; <span>Home</span></li>
-              <li>&#127804; <span>Features</span></li>
-              <li>&#127804; <span>Products</span></li>
-              <li>&#127804; <span>Categories</span></li>
-              <li>&#127804; <span>Review</span></li>
-              <li>&#127804; <span>Blogs</span></li>
+              <li>&#127804; <a class="text-decoration-none text-black " href="/">Home</a></li>
+              <li>&#127804; <a class="text-decoration-none text-black " href="/features">Features</a></li>
+              <li>&#127804; <a class="text-decoration-none text-black " href="/products">Products</a></li>
+              <li>&#127804; <a class="text-decoration-none text-black " href="/categories">Categories</a></li>
+              <li>&#127804; <a class="text-decoration-none text-black " href="/reviews">Reviews</a></li>
+              <li>&#127804; <a class="text-decoration-none text-black " href="/blogs">Blogs</a></li>
             </ul>
           </div>
-          <div class="news">
+          <div>
             <h2>Newsletter</h2>
             <p>Subscribe For Latest Updates</p>
             <input type="email" placeholder="Your email" id="email"/>
-            <button>Subscribe</button>
+            <button class="btn btn-outline-warning">Subscribe</button>
             <div class="paymentCards">
     
             </div>
           </div>
         </div>
-        <div class="copyright">
-          Created By  <span>Joffrey</span> | All Rights Reserved
+        <div  class="bg-dark my-3"  style="width: 75%; height: 2px;"> </div>
+        <div >
+          Created By  <span class="text-primary fs-5 fw-bold">Joffrey</span> | All Rights Reserved
         </div>
       </section>
   </body>
